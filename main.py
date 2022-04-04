@@ -1,11 +1,12 @@
-#5.4 Review. Authentication Review
+#5.4 Review. Authentication Review.
+#This is challenge 34 & 35
 #Create a Password Authenticator that gives you three tries with an user account
 import os
 import stdiomask
 #stdiomask is a input hider so text isnt shown.
 #if not installed use pip install stdiomask or pip3 install stdiomask
 cor=0
-username = input("Welcome Please Put Your UserName Here\n>>> ")
+username = input("Welcome Please Put Your UserName Here\n>>> ").lower()
 
 if os.path.exists(username):
     for i in range(0,3):
