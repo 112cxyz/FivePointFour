@@ -1,8 +1,7 @@
 #5.4 Review. Authentication Review.
 #This is challenge 34 & 35
 #Create a Password Authenticator that gives you three tries with an user account
-import os
-import stdiomask
+import os, stdiomask
 #stdiomask is a input hider so text isnt shown.
 #if not installed use pip install stdiomask or pip3 install stdiomask
 cor=0
